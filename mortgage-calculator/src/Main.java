@@ -51,4 +51,8 @@ public class Main {
         String mortgage = currency.format(mortgageResult);
         System.out.println("Mortgage: " + mortgage);
     }
+
+//    public static double calculateMortgage(int principal, float annualRate, byte period) {
+//        mortgageResult = principal * ((monthlyRate * Math.pow((1 + monthlyRate), numberOfPayments))/((Math.pow((1 + monthlyRate), numberOfPayments) - 1)));
+//    }
 }
